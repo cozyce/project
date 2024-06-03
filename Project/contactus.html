@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Title in Head-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <link rel="icon" type="image/jpg" href="Photos/Main Page/Favicon.jpg">
+    <title>Contact Us!</title>
+</head>
+
+
+<!--Nav Requirement-->
+<div class="nav">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sacramento.html">Sacramento</a></li>
+            <li><a href="sandiego.html">San Diego</a></li>
+            <li><a href="sanfrancisco.html">San Francisco</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</div>
+
+<body>
+    <!--Header & Section Requirement-->
+    <section>
+        <div class="header">
+            <header>Have A Question?</header>
+            <!--Form (F & L Name, Email, Email Confirmation & Question Box)-->
+            <!--Form alerts user email fields do not match upon clicking submit-->
+            <form id="form" name="form" action="/" method="GET" onsubmit="return validateForm()">
+                <h1>Contact Us!</h1>
+                <label for="fname">First name:</label></br>
+                <input type="text" id="fname" name="fname" placeholder="First Name"></br>
+
+                <label for="lname">Last name:</label></br>
+                <input type="text" id="lname" name="lname" placeholder="Last Name"></br>
+
+                <label for="email">Email:</label></br>
+                <input type="email" id="email" name="email" placeholder="Email"></br>
+
+                <label for="confirmation">Confirm Email:</label></br>
+                <input type="email" id="confirmation" name="confirmation" placeholder="Confirm Email"></br>
+
+                <label for="question">Write us!:</label></br>
+                <textarea name="question" rows="5" cols="50">Have a Question?</textarea></br>
+
+                <button class="button" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+<!--Aside Requirement-->
+    <div class="asidephoto">
+    <aside>
+        <img src="Photos/Contact/California Flower Logo.png">
+    </aside>
+    </div>
+
+<!--footer to balance layout, directs to home page, sources page, and contact us page.-->
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sources.html">Sources</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <span>&copy; 2024 California D277</span>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,273 @@
+/*entire page*/
+* {
+    font-family: Garamond, serif;
+}
+body {
+    background-color: #8DB8C7;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+/*header styling*/
+.header {
+    text-align: center;
+}
+
+.header .title {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+}
+
+.header .intro {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+/*Nav Bar styling*/
+.nav {
+    display: block;
+    background-color: #373F51;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+.nav li a {
+    color: white;
+}
+
+/*alters links in nav when on hover*/
+.nav a:hover {
+    background-color: grey;
+    color: black;
+}
+
+/*Aside - styling*/
+aside {
+    padding-left: 5px;
+    float: right;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    background-color: #8DB8C7;
+
+}
+/*Styling for Aside headers on each page*/
+aside h2 {
+    font-size: 25px;
+    text-align: center;
+    background-color: #373F51;
+    color: white;
+    border-color: black;
+    border-style: dotted;
+    border-width: 3px 0px;
+    border-radius: 10px;
+
+}
+
+/*Styling for Homepage(CA) Aside section*/
+aside ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Styling for San Diego image on Aside section*/
+aside img {
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*Adds padding on left hand side of learn section of homepage*/
+#opener {
+    padding: 10px;
+}
+
+/*Resizes font "sources" tags on all pages*/
+span {
+    font-size: 15px;
+}
+
+/*Learning Section styling*/
+section {
+    width: 80%;
+    font-size: 18px;
+}
+
+/*Table - Makes cells wider in table*/
+table {
+    width: 59%;
+}
+
+/*Table - styles data within cell*/
+td {
+    text-align: center;
+    padding: 15px;
+}
+
+/*Table - Adds lines*/
+
+th,td {
+    border-top: 2px solid black ;
+}
+
+/*Data Header*/
+section h2 {
+    font-size: 20px;
+    background-color: #A47963;
+    border-style: dotted;
+    border-width: 3px 0px;
+    text-align: center;
+}
+
+/*Bottom Image Resizing in Homepage(CA Page)*/
+.container img {
+    width: 50%;
+    height:auto;
+}
+
+/*Overview header styling*/
+
+.container h2 {
+    font-size: 20px;
+    text-align: center;
+    background-color: #A47963;
+    border-style: dotted;
+    border-width: 3px 0px;
+}
+
+/*FOOTER - background*/
+footer {
+    display: inline-block;
+    width: 100%;
+    background-color: #373F51;
+    color: white;
+}
+/*FOOTER - Wording color*/
+footer a {
+    color: white;
+}
+
+/*FOOTER - Links centered*/
+footer ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+}
+
+/*FOOTER - Links on one line*/
+footer ul li {
+    display: inline-block;
+    font-size: 10px;
+    padding: 5px;
+}
+
+
+/*Sacramento Photo Square*/
+.photo_box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.first img, .second img, .third img, .fourth img {
+    height: 300px;
+    width: 300px;
+}
+
+/*Sacramento External Link*/
+a {
+    color: #373F51;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: grey;
+    color: black;
+}
+
+/*Sacramento Main Data */
+#main ol {
+    font-size: 20px;
+}
+
+/*Contact Us*/
+form {
+    text-align: center;
+    font-size: 20px;
+}
+
+form h4 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+input, textarea {
+    width: 50%;
+    padding: 10px 10px;
+    border: 3px solid #373F51;
+    font-size: 15px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 50%;
+    padding: 10px 10px;
+    border: 3px solid #373F51;
+    font-size: 20px;
+}
+/*San Diego & San Francisco Bottom Images*/
+section img {
+    border-radius: 50%;
+    max-width: 70%;
+}
+
+/*Sources Page - uses relative position*/
+
+#aside_sources {
+    padding-left: 40%;
+    padding-right: 2%;
+}
+
+#aside_sources img {
+    position: relative;
+    left: 9%;
+}
+ul #workscited {
+    text-align: left;
+    font-size: 18px;
+}
+
+#aboutsources {
+    position: relative;
+    left: 9%;
+    border: 3px solid black;
+}
